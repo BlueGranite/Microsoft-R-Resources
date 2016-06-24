@@ -30,5 +30,20 @@ In order to work through eveything in the demo, you will need:
 | Reporting Services | Any image viewer | Reporting-Services-Final-Plot.png |
 | Reporting Services | Any PDF viewer | SampleHistogram.pdf |
 
-*View the SQL Server 2016 [R Services Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)*
+*View the SQL Server 2016 [R Services Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)*  
+
+
+###[Power BI](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Tutorial.md)
+
+In order to view the demo, you will need:
+
+- Microsoft Power BI Desktop
+
+| Category | Application | File Name |
+| ------------- |:-:| :-:|
+| Power BI  | Power BI Desktop | gameconsole.pbix |
+| Data Source | Any text reader | gameconsole.csv |
+| Data Source | Excel | gameconsole.xlsx |
+
+*View the [Power BI Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Tutorial.md)* 
 
