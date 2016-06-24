@@ -1,3 +1,5 @@
+![BlueGranite](https://raw.githubusercontent.com/BlueGranite/BlueGranite.github.io/master/assets/images/Blue-Granite-Logo.png)
+
 #SQL Server R Services Tutorial
 
 This tutorial walks through some basic development and deployment scenarios for R Services in SQL Server 2016. You will use sample order data and take R code that can be run standalone in RStudio or another R IDE, adapt it for use in SQL Server, and then consume it both in SQL Management Studio as well as from Reporting Services. 
