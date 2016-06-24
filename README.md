@@ -12,13 +12,13 @@ The SQL Server R Services sample files utilize introductory R examples with the 
 
 In order to work through eveything in the demo, you will need:
 
->1. Access to the RevoScaleR functions (i.e. by installing Microsoft R Client)
+- Access to the RevoScaleR functions (i.e. by installing Microsoft R Client)
 
->2. Access to a version of SQL Server 2016 with R Services installed 
+- Access to a version of SQL Server 2016 with R Services installed 
 
->3. The WideWorldImportersDW sample database on the SQL instance
+- The WideWorldImportersDW sample database on the SQL instance
 
->4. SQL Server Data Tools (for the Reporting Services content only)
+- SQL Server Data Tools (for the Reporting Services content only)
 
 ####*1. R*
 ####*2. SQL Server*
