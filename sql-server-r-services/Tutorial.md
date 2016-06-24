@@ -12,7 +12,7 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 [WideWorldImportersDW](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers) sample database.
 
 ###Activity 1 - Develop in R
-1. In RStudio, open the RevoScaleR-vs-Traditional.R file (from the *sql-server-r-services* folder in this GitHub repo).  
+1. In RStudio, open the *RevoScaleR-vs-Traditional.R* file (from the *sql-server-r-services* folder in this GitHub repo).  
 
 2. Install the RODBC package (i.e. install.packages("RODBC") ) if needed. RevoScaleR should already be available if you have Microsoft R Client installed.  
 
@@ -52,6 +52,22 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 Don't worry about analyzing this data. The logistic regression and histogram are simple examples that will be used to show how to embed and work with your R code in SQL Server. The plot will surface again in the later Reporting Services activity.
 
 ###Activity 2 - Adapt R Code for SQL Server
+1. In Management Studio, open the *R-Services-Example.sql* file (from the sql-server-r-services folder in this GitHub repo).  
+2. Connect to your SQL instance that has the WWI DW sample database and R Services installed.  
+3. Run the following code to verify that you are using the correct database.  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-01.PNG)
 
+4. asdfsadf
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-02.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-03.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-04.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-05.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-06.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-07.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-08.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-09.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-10.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-11.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-12.PNG)
 
 ###Activity 3 - Visualize an R Plot in Reporting Services
