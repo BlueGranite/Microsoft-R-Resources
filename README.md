@@ -7,7 +7,7 @@ Materials from BlueGranite's [Microsoft R: A Revolution in Advanced Analytics](h
 
 
 
-###SQL Server 2016
+###[SQL Server 2016](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)
 The SQL Server R Services sample files utilize introductory R examples with the new Wide World Importers DW database. The demo utilizes a basic source query from the Fact.Orders table and shows how to work with the same data using R in both a traditional context as well as using RevoScaleR with various rx functions. Shifting to SQL, the same code can be adapted for use in SQL Server and embedded in stored procedures with minimal changes. The final component uses a Reporting Services (SSRS) report to connect to an embedded SQL stored procedure and plot the resulting histogram in SSRS.
 
 In order to work through eveything in the demo, you will need:
@@ -30,6 +30,5 @@ In order to work through eveything in the demo, you will need:
 | Reporting Services | Any image viewer | Reporting-Services-Final-Plot.png |
 | Reporting Services | Any PDF viewer | SampleHistogram.pdf |
 
-####*1. R*
-####*2. SQL Server*
-####*3. Reporting Services*
+*View the SQL Server 2016 [R Services Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)*
+
