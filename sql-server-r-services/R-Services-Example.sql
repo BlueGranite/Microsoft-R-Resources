@@ -92,3 +92,28 @@ EXEC	@return_value = [dbo].[sp_PredictRSample]
 		@item = 140,
 		@picker = 20,
 		@quantity = 200
+		
+
+--Create basic stored procedure that exports histogram as plot binary (no parameters = static chart)
+--Can be consumed in Reporting Services, etc.
+ALTER PROCEDURE sp_HistogramSample AS 
+BEGIN
+	EXEC sp_execute_external_script
+		@language = N'R',
+		@script = N'df <- InputDataSet
+					image_file = tempfile()
+					jpeg(filename = image_file, width=800, height = 600)
+					print(rxHistogram(~quantity , numBreaks=10, data = df, 
+						title="Order Quantities - WWI rxHistogram Sample"))
+					dev.off()
+					OutputDataSet <- data.frame(data=readBin(file(image_file, "rb"), what=raw(), n=1e6))',
+		@input_data_1 = N'SELECT CASE WHEN [Order Date Key] = [Picked Date Key]
+							  THEN 1 ELSE 0 END AS SameDayFulfillment,
+							  [City Key] AS city,
+							  [Stock Item Key] AS item,
+							  [Picker Key] AS picker,
+							  [Quantity] AS quantity
+						  FROM [Fact].[Order]
+						  WHERE [WWI Order ID] >= 63968;'
+		WITH RESULT SETS ((plot varbinary(max)))
+END
