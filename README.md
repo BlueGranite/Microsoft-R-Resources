@@ -4,7 +4,8 @@ Materials from BlueGranite's [Microsoft R: A Revolution in Advanced Analytics](h
 
 
 ###SQL Server 2016
-The SQL Server R Services sample files utilize introductory R examples with the new Wide World Importers DW database. The demo utilizes a basic source query from the Fact.Orders table and 
+The SQL Server R Services sample files utilize introductory R examples with the new Wide World Importers DW database. The demo utilizes a basic source query from the Fact.Orders table.
+
 In order to work through eveything in the demo, you will need:
 
 +Access to the RevoScaleR functions (i.e. by installing Microsoft R Client)
