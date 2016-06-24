@@ -30,14 +30,21 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 
 7. You will now run a very basic logistic regression using the built-in *glm* function on the local data frame and view the coefficients.    
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-05.PNG)  
-
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-06.PNG)  
 
 8. Now that you've seen the traditional method, you will switch your *compute context* and process data in-database instead of locally. You will also change from traditional functions to the ScaleR "rx"-prefixed functions from the RevoScaleR package. Run the following code to change your compute context from local to SQL Server.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-07.PNG)
+
+9. Run the following code to build your SQL query.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-08.PNG)
+
+10. The following code using *rxImport()* is here for information more than function. *If* you wanted to bring your data into a local data frame, you can use rxImport with the in-database object.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-09.PNG)
+
+11. Otherwise, run the following code to perform a logistic regression with the SQL compute context using the *rxLogit()* function (equivalent to glm above).  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-10.PNG)
+
+
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-11.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-12.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-13.PNG)
