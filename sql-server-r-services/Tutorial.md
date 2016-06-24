@@ -45,7 +45,7 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-10.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-11.PNG)
 
-12. Finally, run the following code to produce a histogram displaying the quantity of items per order. Note the positive skewness where most orders have fifty items or less.  
+12. Finally, run the following code to produce a histogram displaying the quantity of items per order. Note the positive/right skew where most orders have fifty items or less and the rest of the bins compose a long tail to the right.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-12.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-13.PNG)
 
