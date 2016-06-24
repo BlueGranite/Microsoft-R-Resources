@@ -20,6 +20,16 @@ In order to work through eveything in the demo, you will need:
 
 - SQL Server Data Tools (for the Reporting Services content only)
 
+| Category | Application | File Name |
+| ------------- |:-:| :-:|
+| R | R IDE such as RStudio or R Tools for Visual Studio | RevoScaleR-vs-Traditional.R |
+| SQL | SQL Server Management Studio or SQL Server Data Tools | R-Services-Example.sql |
+| Reporting Services | SQL Server Data Tools | R-Services-Sample-Reports.zip |
+| Reporting Services | Any image viewer | Reporting-Services-Dataset-Setup.PNG |
+| Reporting Services | Any image viewer | Reporting-Services-Image-Setup.PNG |
+| Reporting Services | Any image viewer | Reporting-Services-Final-Plot.PNG |
+| Reporting Services | Any PDF viewer | SampleHistogram.pdf |
+
 ####*1. R*
 ####*2. SQL Server*
 ####*3. Reporting Services*
