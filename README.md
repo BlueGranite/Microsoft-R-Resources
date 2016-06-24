@@ -1,6 +1,6 @@
 ![BlueGranite](https://raw.githubusercontent.com/BlueGranite/BlueGranite.github.io/master/assets/images/Blue-Granite-Logo.png)
 
-#Resources using Microsoft R
+#Microsoft R Resources
 
 Materials from BlueGranite's [Microsoft R: A Revolution in Advanced Analytics](https://www.blue-granite.com/webinar-microsoft-r-a-revolution-of-advanced-analytics) webinar
 
@@ -22,9 +22,9 @@ In order to work through eveything in the demo, you will need:
 
 | Category | Application | File Name |
 | ------------- |:-:| :-:|
-| R | R IDE such as RStudio or R Tools for Visual Studio | RevoScaleR-vs-Traditional.R |
-| SQL | SQL Server Management Studio or SQL Server Data Tools | R-Services-Example.sql |
-| Reporting Services | SQL Server Data Tools | R-Services-Sample-Reports.zip |
+| R | R IDE (RStudio or R Tools for Visual Studio) | RevoScaleR-vs-Traditional.R |
+| SQL | Management Studio or Data Tools | R-Services-Example.sql |
+| Reporting Services | Data Tools | R-Services-Sample-Reports.zip |
 | Reporting Services | Any image viewer | Reporting-Services-Dataset-Setup.PNG |
 | Reporting Services | Any image viewer | Reporting-Services-Image-Setup.PNG |
 | Reporting Services | Any image viewer | Reporting-Services-Final-Plot.PNG |
