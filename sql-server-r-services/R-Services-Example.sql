@@ -30,7 +30,7 @@ EXEC sp_execute_external_script
 GO
 
 --embed model in a stored procedure
-ALTER PROCEDURE sp_EmbeddedRSample AS
+CREATE PROCEDURE sp_EmbeddedRSample AS
 BEGIN
 EXEC sp_execute_external_script
 @language = N'R',
@@ -63,7 +63,7 @@ GO
 --SELECT Model FROM dbo.RServicesModels
 
 --Create stored procedure for predicting same day fulfillment using the logit model
-ALTER PROCEDURE sp_PredictRSample (@city int, @item int, @picker int, @quantity int)
+CREATE PROCEDURE sp_PredictRSample (@city int, @item int, @picker int, @quantity int)
 AS 
 	DECLARE @logitModel varbinary(max) = (SELECT TOP 1 Model FROM dbo.RServicesModels);
 BEGIN
@@ -96,7 +96,7 @@ EXEC	@return_value = [dbo].[sp_PredictRSample]
 
 --Create basic stored procedure that exports histogram as plot binary (no parameters = static chart)
 --Can be consumed in Reporting Services, etc.
-ALTER PROCEDURE sp_HistogramSample AS 
+CREATE PROCEDURE sp_HistogramSample AS 
 BEGIN
 	EXEC sp_execute_external_script
 		@language = N'R',
