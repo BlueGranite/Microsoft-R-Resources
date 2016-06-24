@@ -36,8 +36,8 @@ order.logit
 #change compute context to SQL Server with RevoScaleR
 wwi.conn.rx <- sql.conn.string
 sql_share_directory <- paste("c:\\AllShare\\", Sys.getenv("USERNAME"), sep = "")
-  #the directory above may already exist. if not, uncomment below
-  #dir.create(sql_share_directory, recursive = TRUE)
+    #the directory above may already exist. if not, uncomment below
+    #dir.create(sql_share_directory, recursive = TRUE)
 sql <- RxInSqlServer(connectionString = wwi.conn.rx, shareDir = sql_share_directory)  
 rxSetComputeContext(sql)
 
