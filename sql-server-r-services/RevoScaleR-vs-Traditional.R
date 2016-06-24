@@ -1,6 +1,7 @@
 ###
 #Basic Connectivity to SQL Server with RevoScaleR
 #Compares traditional ODBC connection with ScaleR rx[...]
+#Uses WideWorldImportersDW sample database for SQL Server 2016
 ###
 
 library(RODBC) 
@@ -10,14 +11,17 @@ library(RevoScaleR)
 local <- RxLocalSeq()
 rxSetComputeContext(local)
 
-#traditional ODBC connection to SQL Server
-wwi.conn.odbc <- odbcDriverConnect('driver={SQL Server};server=sqlshop-sql-001;database=WideWorldImportersDW;trusted_connection=true')
+#connection string and source query (replace SERVERNAME and use Uid and Pwd if needed)
+sql.conn.string <- 'driver={SQL Server};server=[SERVERNAME];database=WideWorldImportersDW;trusted_connection=true'
 source.query <- paste("SELECT CASE WHEN [Order Date Key] = [Picked Date Key]",
                       "THEN 1 ELSE 0 END AS SameDayFulfillment,",
                       "[City Key] AS city,[Stock Item Key] AS item,",
                       "[Picker Key] AS picker,[Quantity] AS quantity",
                       "FROM [Fact].[Order]",
                       "WHERE [WWI Order ID] >= 63968")
+
+#traditional ODBC connection to SQL Server
+wwi.conn.odbc <- odbcDriverConnect(sql.conn.string)
 
 #connect with RODBC and preview orders
 orders <- sqlQuery(wwi.conn.odbc, source.query)
@@ -30,10 +34,10 @@ order.logit
 
 #__RevoScaleR functions__
 #change compute context to SQL Server with RevoScaleR
-wwi.conn.rx <- "driver={SQL Server};server=sqlshop-sql-001;database=WideWorldImportersDW;trusted_connection=true"
+wwi.conn.rx <- sql.conn.string
 sql_share_directory <- paste("c:\\AllShare\\", Sys.getenv("USERNAME"), sep = "")
-#the directory above may already exist. if not, uncomment below
-#dir.create(sql_share_directory, recursive = TRUE)
+  #the directory above may already exist. if not, uncomment below
+  #dir.create(sql_share_directory, recursive = TRUE)
 sql <- RxInSqlServer(connectionString = wwi.conn.rx, shareDir = sql_share_directory)  
 rxSetComputeContext(sql)
 
