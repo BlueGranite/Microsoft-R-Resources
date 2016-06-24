@@ -54,10 +54,10 @@ Don't worry about analyzing this data. The logistic regression and histogram are
 ###Activity 2 - Adapt R Code for SQL Server
 1. In Management Studio, open the *R-Services-Example.sql* file (from the sql-server-r-services folder in this GitHub repo).  
 2. Connect to your SQL instance that has the WWI DW sample database and R Services installed.  
-3. Run the following code to verify that you are using the correct database.  
+3. Execute the following code to verify that you are using the correct database.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-01.PNG)
 
-4. asdfsadf
+4. You will not take some time to explore a very basic example of the new *sp_execute_external_script* stored procedure, which allows you to work with R code using R Services. The required parameters are @language, @script, and @input_dataset_1. There are additional optional parameters that are not currently being used. @script is where the adapted R code goes. Note that except for changing the source data to *InputDataSet*, the code itself is similar to the logistic regression you ran earlier in RStudio. The final line of @script is there simply to print to stdout. Likewise, note that @input_dataset_1 is similar to the source SQL query that you used in RStudio.
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-02.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-03.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-04.PNG)
