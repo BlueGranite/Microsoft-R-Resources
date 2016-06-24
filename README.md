@@ -1,6 +1,10 @@
-#BlueGranite - R Resources
+![BlueGranite](https://raw.githubusercontent.com/BlueGranite/BlueGranite.github.io/master/assets/images/Blue-Granite-Logo.png)
+
+#Resources using Microsoft R
 
 Materials from BlueGranite's [Microsoft R: A Revolution in Advanced Analytics](https://www.blue-granite.com/webinar-microsoft-r-a-revolution-of-advanced-analytics) webinar
+
+
 
 
 ###SQL Server 2016
