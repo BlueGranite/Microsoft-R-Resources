@@ -82,17 +82,21 @@ Don't worry about analyzing this data. The logistic regression and histogram are
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-12.PNG)
 
 ###Activity 3 - Visualize an R Plot in Reporting Services
-1. Download and unzip the *R-Services-Sample-Reports.zip* file (from the *sql-server-r-services* folder in this GitHub repo).  
-2. Open the *R-Services-Sample-Reports* solution in the latest version of SQL Server Data Tools.
-3. Open the *SampleHistogram.rdl* file from Solution Explorer.
-4. Open *WideWorldImportersDW" under *Data Sources* in Report Data. Change the connection string to your own SQL Server instance.
-5. Expand *Datasets* in Report Data and view *Dataset1*. Note how the dataset uses the *sp_HistogramSample* stored procedure as a source. You may need to use the dropdown menu and select the stored procedure using your own SQL connection.
-6. Right-click on the empty image object on the report canvas, then select *Image Properties*. In the Properties window, note how the image is using a Database source, selecting the plot from DataSet1, and using the jpeg MIME type.
-7. Click *Preview* to view the report, and you should see the same histogram that you viewed in RStudio.
-
+1. Download and unzip the *R-Services-Sample-Reports.zip* file (from the *sql-server-r-services* folder in this GitHub repo). 
+2. Open the *R-Services-Sample-Reports* solution in the latest version of SQL Server Data Tools.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-01.PNG)
+
+3. Open the *SampleHistogram.rdl* file from Solution Explorer.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-02.PNG)
+
+4. Open *WideWorldImportersDW" under *Data Sources* in Report Data. Change the connection string to your own SQL Server instance.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-03.PNG)
+
+5. Expand *Datasets* in Report Data and view *Dataset1*. Note how the dataset uses the *sp_HistogramSample* stored procedure as a source. You may need to use the dropdown menu and select the stored procedure using your own SQL connection.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-04.PNG)
+
+6. Right-click on the empty image object on the report canvas, then select *Image Properties*. In the Properties window, note how the image is using a Database source, selecting the plot from DataSet1, and using the jpeg MIME type.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-05.PNG)
+
+7. Click *Preview* to view the report, and you should see the same histogram that you viewed in RStudio.
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-06.PNG)
