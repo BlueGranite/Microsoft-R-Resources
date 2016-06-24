@@ -51,3 +51,6 @@ localDf <- rxImport(inDataSource)
 #perform logistic regression in-database on data from SQL Server compute context
 order.logit.rx <- rxLogit(SameDayFulfillment ~ city + item + picker + quantity, data = inDataSource)
 order.logit.rx
+
+#sample histogram using rxHistogram
+rxHistogram(~quantity , numBreaks=10, data = inDataSource, title="Order Quantities - WWI rxHistogram Sample")
