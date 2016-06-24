@@ -17,5 +17,6 @@ In order to work through eveything in the demo, you will need:
 +SQL Server Data Tools (for the Reporting Services content only)
 
 1. R
+..*.
 2. SQL Server
 3. Reporting Services
