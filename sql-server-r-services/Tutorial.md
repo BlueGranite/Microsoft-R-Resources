@@ -69,11 +69,16 @@ Don't worry about analyzing this data. The logistic regression and histogram are
 
 7. You will now create a *second* stored procedure to predict same day fulfillments based on the earlier model. Note that the new *dbo.sp_PredictRSample* procedure takes a number of parameters that correspond to the SQL input you have already been familiar with. The procedure uses the model you trained earlier, and the output includes the new data used to predict as well as a new column called *PredictedSameDayFulfillment*.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-06.PNG)
+
+8. Run the following code, which executes the prediction stored procedure with one record of sample data. Note that the output in this case was ~0.67, which unconvincingly leans toward same day fulfillment because it is closer to 1 than 0.
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-07.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-08.PNG)
-![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-09.PNG)
+
+9. Change the *quantity* value and note the new prediction. In this case, increasing the quantity ordered to *1000* results in a predicted value much closer to 0. Based on the established training data, high-quantity orders likely cannot be fulfilled same day as easily. In the real world, this could be due to lack of inventory or other factors.
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-10.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-11.PNG)
+
+10. As a final step, you will create a new stored procedure as a lead-in for the next Reporting Services activity. Execute the following code to create the *dbo.sp_HistogramSample* procedure. Note that the output is binary as it was when you embedded the R model earlier. While the final output will be the same image as what you viewed in RStudio, this R code is noticeably different than what you ran in RStudio. While you cannot see the image in Management Studio, the binary can be consumed in client tools such as Reporting Services.
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-12.PNG)
 
 ###Activity 3 - Visualize an R Plot in Reporting Services
