@@ -41,13 +41,15 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 10. The following code using *rxImport()* is here for information more than function. *If* you wanted to bring your data into a local data frame, you can use rxImport with the in-database object.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-09.PNG)
 
-11. Otherwise, run the following code to perform a logistic regression with the SQL compute context using the *rxLogit()* function (equivalent to glm above).  
+11. Otherwise, run the following code to train a logistic regression model using the SQL data object. Not that you now use the *rxLogit()* function (equivalent to glm above). You could take it a step further on your own and use the *rxPredict()* function with new data to classify whether or not additional orders would be fulfilled same day or not.
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-10.PNG)
-
-
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-11.PNG)
+
+12. Finally, run the following code to produce a histogram displaying the quantity of items per order. Note the positive skewness where most orders have fifty items or less.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-12.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-13.PNG)
+
+Don't worry about analyzing this data. The logistic regression and histogram are simple examples that will be used to show how to embed and work with your R code in SQL Server. The plot will surface again in the later Reporting Services activity.
 
 ###Activity 2 - Adapt R Code for SQL Server
 
