@@ -28,9 +28,12 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 6. Look at the first few observations. *SameDayFulfillment* is an engineered feature with a 0/1 value noting if an order was packed the same day that it was placed. If 1, it was same day fulfillment. If 0, it was not. The other variables are unmodified key values from the Fact.Order table. You should also notice the *orders* data frame in your environment window with 29913 observations and 5 variables.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-04.PNG)
 
-7. You will now run a traditional logistic regression on the local data frame and view the coefficients.    
-![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-05.PNG)
-![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-06.PNG)
+7. You will now run a very basic logistic regression using the built-in *glm* function on the local data frame and view the coefficients.    
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-05.PNG)  
+
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-06.PNG)  
+
+8. Now that you've seen the traditional method, you will switch your *compute context* and process data in-database instead of locally. You will also change from traditional functions to the ScaleR "rx"-prefixed functions from the RevoScaleR package. Run the following code to change your compute context from local to SQL Server.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-07.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-08.PNG)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-r-09.PNG)
