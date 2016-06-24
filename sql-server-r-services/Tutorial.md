@@ -3,7 +3,7 @@
 This tutorial walks through some basic development and deployment scenarios for R Services in SQL Server 2016. You will use sample order data and take R code that can be run standalone in RStudio or another R IDE, adapt it for use in SQL Server, and then consume it both in SQL Management Studio as well as from Reporting Services. 
 
 ###Objectives
-- Learn about some of the Microsoft R "RevoScaleR" functions
+- Learn about some of the Microsoft "RevoScaleR" functions
 - Adapt R code for a logistic regression model for use in SQL Server
 - Embed R code in SQL Server stored procedures
 - Make predictions on new data using a trained R model stored in SQL Server
