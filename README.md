@@ -25,9 +25,9 @@ In order to work through eveything in the demo, you will need:
 | R | R IDE (RStudio or R Tools for Visual Studio) | RevoScaleR-vs-Traditional.R |
 | SQL | Management Studio or Data Tools | R-Services-Example.sql |
 | Reporting Services | Data Tools | R-Services-Sample-Reports.zip |
-| Reporting Services | Any image viewer | Reporting-Services-Dataset-Setup.PNG |
-| Reporting Services | Any image viewer | Reporting-Services-Image-Setup.PNG |
-| Reporting Services | Any image viewer | Reporting-Services-Final-Plot.PNG |
+| Reporting Services | Any image viewer | Reporting-Services-Dataset-Setup.png |
+| Reporting Services | Any image viewer | Reporting-Services-Image-Setup.png |
+| Reporting Services | Any image viewer | Reporting-Services-Final-Plot.png |
 | Reporting Services | Any PDF viewer | SampleHistogram.pdf |
 
 ####*1. R*
