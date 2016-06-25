@@ -43,4 +43,11 @@ game.console <- read.csv(source, header = TRUE)
 
 
 ###Activity 3 - Plot a Time Series Forecast with R Visual
-1. Click on the *R* visual in the *Visualizations* panel.
+1. Click on the *R* visual in the *Visualizations* panel. You may also receive a message stating that you need to Enable Script Visuals. If so, select *Enable*. An *R script editor* appears on the report canvas. A message states that you need to drag fields into the Values area.  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-01.PNG)
+
+2. Drag *Console*, *Date*, and *Search* from the Fields panel into *Values*. Note that the R script editor changes to show these fields and adds them to a data frame.  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-02.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-03.PNG)
+
+3. 
