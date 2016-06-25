@@ -51,4 +51,4 @@ game.console <- read.csv(source, header = TRUE)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-03.PNG)
 
 3. Copy and paste the following code into the *R script editor*, then click *Run*. After a few seconds, you should see a plot display on the report.  
-![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-04PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-04.PNG)
