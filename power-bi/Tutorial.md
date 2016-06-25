@@ -26,13 +26,20 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 
 ###Activity 2 - Load Data with R Script
 1. From the main report canvas, select *Get Data* on the *Home* tab, then select *More...*.  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-script-01.PNG)
+
 2. Choose *R Script* from the list of data sources and then click *Connect*.  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-script-02.PNG)
+
 3. Copy and paste the following code into the *Execute R Script* window, then click OK. This code simply references a remote CSV file and loads it into a data frame without transforming it in any way. In the real world, to take true advantage of the R Script, you can do some more advanced data cleansing and transformation with R prior to executing the script. 
 ```R
 source <- "https://cdn.rawgit.com/BlueGranite/Microsoft-R-Resources/master/power-bi/gameconsole.csv"  
 game.console <- read.csv(source, header = TRUE)
 ```
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-script-03.PNG)  
+
 4. On the *Navigator* window, check the box next to *game.console* and then click *Load*. You should see "game console" appears in the "Fields" panel with three fields: Console, Date, and Search.
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-script-04.PNG)
 
 
 ###Activity 3 - Plot a Time Series Forecast with R Visual
