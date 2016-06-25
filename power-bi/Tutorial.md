@@ -19,6 +19,8 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 2. Open Power BI Desktop. Close the startup window with *Get Data*, recent files, etc. if it appears.  
 3. Go to *File*, select *Options and settings*, and then select *Options*.  
 4. Under the *Global* heading, select *R Scripting*. Power BI attempts to automatically detect a local R installation. If you have multiple versions of R installed, you can select an alternate version from the menu.  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-config-01.PNG)
+
 5. Click *OK* when done.  
 
 
