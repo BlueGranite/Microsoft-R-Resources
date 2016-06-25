@@ -9,4 +9,13 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 - Create an R Visual
 
 ###Prerequisites
-- Download and install the free [Microsoft Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop) on your local workstation. 
+- Download and install the free [Microsoft Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop) on your local workstation.
+
+
+###Activity 1 - Load Data with R Script
+1. 
+
+
+
+###Activity 2 - Plot a Time Series Forecast with R Visual
+1. 
