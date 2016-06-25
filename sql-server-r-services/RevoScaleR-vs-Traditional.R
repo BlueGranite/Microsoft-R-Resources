@@ -28,9 +28,9 @@ orders <- sqlQuery(wwi.conn.odbc, source.query)
 head(orders)
 
 #traditional logistic regression
-order.logit <- glm(SameDayFulfillment ~ city + item + picker + quantity, data = orders)
+order.logit <- glm(SameDayFulfillment ~ city + item + picker + quantity, 
+                  data = orders, family = binomial("logit"))
 order.logit
-
 
 #__RevoScaleR functions__
 #change compute context to SQL Server with RevoScaleR
