@@ -47,7 +47,7 @@ game.console <- read.csv(source, header = TRUE)
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-01.PNG)
 
 2. Drag *Console*, *Date*, and *Search* from the Fields panel into *Values*. Note that the R script editor changes to show these fields and adds them to a data frame.  
-![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-02.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-02.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-03.PNG)
 
 3. 
