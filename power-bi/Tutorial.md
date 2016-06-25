@@ -2,7 +2,7 @@
 
 #R in Microsoft Power BI Tutorial
 
-There are two different ways to apply R in Power BI: the *R Script* for loading and transforming data, and the *R Visual* for additional enhancement and data visualization. The following tutorial
+There are two different ways to apply R in Power BI: the *R Script* for loading and transforming data, and the *R Visual* for additional enhancement and data visualization. The following tutorial walks through a basic scenario using both.
 
 ###Objectives
 - Use the R Script for loading data
