@@ -51,7 +51,7 @@ In order to view the tutorial, you will need:
   
 ### Additional Resources
 
-######CRAN (Open-source R) - [https://cran.r-project.org/](https://cran.r-project.org/]
+######CRAN (Open-source R) - [https://cran.r-project.org/](https://cran.r-project.org/)
 
 ######Microsoft R Portal - [https://mran.revolutionanalytics.com/](https://mran.revolutionanalytics.com/)
 
