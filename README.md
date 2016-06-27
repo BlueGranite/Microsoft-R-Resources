@@ -51,28 +51,27 @@ In order to view the tutorial, you will need:
   
 ### Additional Resources
 
-######Microsoft R Strategy - [http://www.zdnet.com/article/microsofts-r-strategy/](http://www.zdnet.com/article/microsofts-r-strategy/)
-
-######Connected Cows presentation - [https://www.youtube.com/watch?v=oY0mxwySaSo ](https://www.youtube.com/watch?v=oY0mxwySaSo)
-
-######Azure ML Templates with SQL Server R Services - [https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1](https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1)
-
-######R Server Home Page - [https://www.microsoft.com/en-us/server-cloud/products/r-server/](https://www.microsoft.com/en-us/server-cloud/products/r-server/)
-
-######Azure ML FAQ - [https://azure.microsoft.com/en-us/documentation/articles/machine-learning-faq/?cdn=disable](https://azure.microsoft.com/en-us/documentation/articles/machine-learning-faq/?cdn=disable)
-
-######SQL Server 2016 E-Book - [https://blogs.msdn.microsoft.com/microsoft_press/2015/12/22/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-edition/](https://blogs.msdn.microsoft.com/microsoft_press/2015/12/22/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-edition/)
-
-######R Server for HDInsight - [https://azure.microsoft.com/en-us/services/hdinsight/r-server/ ](https://azure.microsoft.com/en-us/services/hdinsight/r-server/)
-
-######Create Power BI Visuals Using R - [https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/)
+######CRAN (Open-source R) - [https://cran.r-project.org/](https://cran.r-project.org/]
 
 ######Microsoft R Portal - [https://mran.revolutionanalytics.com/](https://mran.revolutionanalytics.com/)
 
 ######Getting Started with R - [https://mran.revolutionanalytics.com/documents/getting-started/](https://mran.revolutionanalytics.com/documents/getting-started/)
 
-######CRAN (Open-source R) - [https://cran.r-project.org/](https://cran.r-project.org/]
+######Microsoft R Strategy - [http://www.zdnet.com/article/microsofts-r-strategy/](http://www.zdnet.com/article/microsofts-r-strategy/)
 
+######R Server Home Page - [https://www.microsoft.com/en-us/server-cloud/products/r-server/](https://www.microsoft.com/en-us/server-cloud/products/r-server/)
+
+######SQL Server 2016 E-Book - [https://blogs.msdn.microsoft.com/microsoft_press/2015/12/22/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-edition/](https://blogs.msdn.microsoft.com/microsoft_press/2015/12/22/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-edition/)
+
+######Azure ML FAQ - [https://azure.microsoft.com/en-us/documentation/articles/machine-learning-faq/?cdn=disable](https://azure.microsoft.com/en-us/documentation/articles/machine-learning-faq/?cdn=disable)
+
+######Azure ML Templates with SQL Server R Services - [https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1](https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1)
+
+######R Server for HDInsight - [https://azure.microsoft.com/en-us/services/hdinsight/r-server/ ](https://azure.microsoft.com/en-us/services/hdinsight/r-server/)
+
+######Create Power BI Visuals Using R - [https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/)
+
+######Connected Cows presentation - [https://www.youtube.com/watch?v=oY0mxwySaSo ](https://www.youtube.com/watch?v=oY0mxwySaSo)
 
 ####BlueGranite Blogs
 
