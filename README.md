@@ -76,7 +76,7 @@ In order to view the tutorial, you will need:
 
 ####BlueGranite 
 
-#####Advanced Analytics
+######Advanced Analytics
 
 [http://www.blue-granite.com/blog/built-in-analytics-why-r-matters-to-a-sql-server-professional](http://www.blue-granite.com/blog/built-in-analytics-why-r-matters-to-a-sql-server-professional)
 
@@ -86,7 +86,7 @@ In order to view the tutorial, you will need:
 
 [http://www.blue-granite.com/blog/top-6-use-cases-to-help-you-understand-big-data-analytics](http://www.blue-granite.com/blog/top-6-use-cases-to-help-you-understand-big-data-analytics)
 
-#####Data Lakes / Hadoop
+######Data Lakes / Hadoop
 
 [http://www.blue-granite.com/blog/5-reasons-to-get-excited-about-sql-server-2016-and-big-data](http://www.blue-granite.com/blog/5-reasons-to-get-excited-about-sql-server-2016-and-big-data)
 
@@ -96,7 +96,7 @@ In order to view the tutorial, you will need:
 
 [http://www.blue-granite.com/blog/demo-day-exploratory-analysis-spark-hdinsight](http://www.blue-granite.com/blog/demo-day-exploratory-analysis-spark-hdinsight)
 
-#####Power BI  / Azure
+######Power BI  / Azure
 
 [http://www.blue-granite.com/blog/tour-of-the-power-bi-ecosystem](http://www.blue-granite.com/blog/tour-of-the-power-bi-ecosystem)
 
@@ -110,7 +110,7 @@ In order to view the tutorial, you will need:
 
 [http://www.blue-granite.com/blog/automate-pulling-in-life-changing-external-data-with-azure-logic-apps](http://www.blue-granite.com/blog/automate-pulling-in-life-changing-external-data-with-azure-logic-apps)
 
-#####SQL 2016
+######SQL 2016
 
 [http://www.blue-granite.com/blog/top-3-reasons-to-upgrade-to-sql-server-2016-reporting-services](http://www.blue-granite.com/blog/top-3-reasons-to-upgrade-to-sql-server-2016-reporting-services)
 
