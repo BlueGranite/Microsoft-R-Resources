@@ -74,7 +74,7 @@ In order to view the tutorial, you will need:
 ######CRAN (Open-source R) - [https://cran.r-project.org/](https://cran.r-project.org/]
 
 
-####BlueGranite 
+####BlueGranite Blogs
 
 ######Advanced Analytics
 
