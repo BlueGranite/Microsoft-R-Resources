@@ -71,6 +71,8 @@ In order to work through the tutorial, you will need:
 
 ######SQL Server 2016 E-Book - [https://blogs.msdn.microsoft.com/microsoft_press/2015/12/22/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-edition/](https://blogs.msdn.microsoft.com/microsoft_press/2015/12/22/free-ebook-introducing-microsoft-sql-server-2016-mission-critical-applications-deeper-insights-hyperscale-cloud-preview-edition/)
 
+######Azure Data Science Virtual Machine - [https://azure.microsoft.com/en-us/marketplace/partners/microsoft-ads/standard-data-science-vm/](https://azure.microsoft.com/en-us/marketplace/partners/microsoft-ads/standard-data-science-vm/)
+
 ######Azure ML FAQ - [https://azure.microsoft.com/en-us/documentation/articles/machine-learning-faq/?cdn=disable](https://azure.microsoft.com/en-us/documentation/articles/machine-learning-faq/?cdn=disable)
 
 ######Azure ML Templates with SQL Server R Services - [https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1](https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1)
