@@ -10,6 +10,7 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 
 ###Prerequisites
 - An Azure subscription
+- An SSH client such as [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 
 
 ###Activity 1 - Create an R Server on HDInsight Cluster
@@ -22,4 +23,6 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 
 - Configure the rest of the cluster options as required. When ready, click *Create*. It may take up to 40 minutes to create your cluster. While you wait, you will see a notification in the upper right corner showing progress.  
 
-###Activity 2 - Run R Scripts on your Cluster
+###Activity 2 - Install R Studio on the R Server Edge Node
+
+###Activity 2 - Run R Scripts to Analyze Data under Different Compute Contexts
