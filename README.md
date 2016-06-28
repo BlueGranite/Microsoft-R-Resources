@@ -25,17 +25,13 @@ In order to work through everything in the tutorial, you will need:
 | R | R IDE (RStudio or R Tools for Visual Studio) | RevoScaleR-vs-Traditional.R |
 | SQL | Management Studio or Data Tools | R-Services-Example.sql |
 | Reporting Services | Data Tools | R-Services-Sample-Reports.zip |
-| Reporting Services | Any image viewer | Reporting-Services-Dataset-Setup.png |
-| Reporting Services | Any image viewer | Reporting-Services-Image-Setup.png |
-| Reporting Services | Any image viewer | Reporting-Services-Final-Plot.png |
-| Reporting Services | Any PDF viewer | SampleHistogram.pdf |
 
 *View the SQL Server 2016 [R Services Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)*  
 
 
 ###[Power BI](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Tutorial.md)
 
-In order to view the tutorial, you will need:
+In order to work through the tutorial, you will need:
 
 - Microsoft Power BI Desktop
 
@@ -43,9 +39,21 @@ In order to view the tutorial, you will need:
 | ------------- |:-:| :-:|
 | Power BI  | Power BI Desktop | gameconsole.pbix |
 | Data Source | Any text reader | gameconsole.csv |
-| Data Source | Excel | gameconsole.xlsx |
 
 *View the [Power BI Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Tutorial.md)* 
+
+
+###[R Server on HDInsight](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Tutorial.md)
+
+In order to work through the tutorial, you will need:
+
+- An Azure subscription
+-
+| Category | Application | File Name |
+| ------------- |:-:| :-:|
+| R | RStudio (on R Server edge node) | HDInsight.R |
+
+*View the [HDInsight Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Tutorial.md)
 
   
   
