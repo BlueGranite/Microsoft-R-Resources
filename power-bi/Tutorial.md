@@ -70,3 +70,21 @@ pred <- forecast(decom, h = 12)
 plot(pred)
 ```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-04.PNG)
+
+4. Add a second R visual to the report canvas and drag the *Console*, *Date*, and *Search* from the Fields panel into *Values*.
+5. Copy and paste the following code into the new *R script editor*, then click *Run*. This script also requires the *forecast* package. After a few seconds, you should see a plot display on the report.
+```R
+library(forecast)
+
+# group searches by date
+dataset <- aggregate(Search ~ Date, data = dataset, FUN= sum)
+
+# create a time series based on month
+ts <- ts(dataset$Search, frequency=4)
+
+# pull out the seasonal, trend, and irregular components from the time series (train the forecast model)
+decom <- stl(ts, s.window = "periodic")
+
+plot(decom)
+```
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-04.PNG)
