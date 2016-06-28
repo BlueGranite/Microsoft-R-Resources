@@ -87,4 +87,4 @@ decom <- stl(ts, s.window = "periodic")
 
 plot(decom)
 ```
-![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-04.PNG)
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-05.PNG)
