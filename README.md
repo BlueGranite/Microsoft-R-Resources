@@ -75,6 +75,8 @@ In order to work through the tutorial, you will need:
 
 ######Azure ML Templates with SQL Server R Services - [https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1](https://gallery.cortanaintelligence.com/Collection/ML-Templates-with-SQL-Server-R-Services-1)
 
+######Azure ML Fraud Detection Template - [https://gallery.cortanaintelligence.com/Collection/Online-Fraud-Detection-Template-1](https://gallery.cortanaintelligence.com/Collection/Online-Fraud-Detection-Template-1)
+
 ######R Server for HDInsight - [https://azure.microsoft.com/en-us/services/hdinsight/r-server/ ](https://azure.microsoft.com/en-us/services/hdinsight/r-server/)
 
 ######Create Power BI Visuals Using R - [https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/)
