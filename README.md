@@ -48,7 +48,7 @@ In order to work through the tutorial, you will need:
 In order to work through the tutorial, you will need:
 
 - An Azure subscription
--
+
 | Category | Application | File Name |
 | ------------- |:-:| :-:|
 | R | RStudio (on R Server edge node) | HDInsight.R |
