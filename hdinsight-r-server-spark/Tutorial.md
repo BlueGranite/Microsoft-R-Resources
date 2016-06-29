@@ -2,6 +2,8 @@
 
 #R Server on Azure HDInsight
 
+R Server on Azure HDInsight is a convenient way to utilize R in a distributed environment. In the following tutorial, you will create an HDInsight cluster that includes R Server using the Azure Portal. You will then install RStudio on the R Server edge node. Finally, you will use R to manage HDFS resources, change compute contexts, and build models under each context. General familiarity with HDInsight, HDFS, and R is assumed.
+
 ###Objectives
 - Create an R Server on Azure HDInsight cluster
 - Install RStudio on the cluster
