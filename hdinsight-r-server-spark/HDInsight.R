@@ -25,7 +25,7 @@ model <- rxLogit(formula = incomeformula, data = incomedata)
 summary(model)
 
 
-####### Create Logistic Regression Model Using Local Parallel Context #######
+####### Create Logistic Regression Model Using Spark Context #######
 spark <-RxSpark()
 rxSetComputeContext(spark)
 model <- rxLogit(formula = incomeformula, data = incomedata)
