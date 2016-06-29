@@ -21,8 +21,12 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 - Enter a unique *Cluster Name* and click on *Select Cluster Type*. Select the *R Server on Spark* option and click *Select*.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-02.PNG)
 
-- Configure the rest of the cluster options as required. When ready, click *Create*. It may take up to 40 minutes to create your cluster. While you wait, you will see a notification in the upper right corner showing progress.  
+- Under *Credentials*, enter separate logins for the cluster admin and SSH user. Remember the SSH credentials since you will need these later to connect to your cluster. When ready, click *Select*.  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-03.PNG)
+
+- Configure the rest of the cluster options as required. When ready, click *Create* at the bottom of the panel. It may take up to 40 minutes to create your cluster. While you wait, you will see a notification in the upper right corner showing progress.  
 
 ###Activity 2 - Install R Studio on the R Server Edge Node
+- Follow the instructions from Azure documentation to [install R Studio](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-r-server-install-r-studio/) on your R Server edge node. You will need to wait for your cluster to be ready before you can proceed with these steps, and you will also need your SSH client available to connect.
 
-###Activity 2 - Run R Scripts to Analyze Data under Different Compute Contexts
+###Activity 3 - Run R Scripts to Analyze Data under Different Compute Contexts
