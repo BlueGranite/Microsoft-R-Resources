@@ -28,8 +28,24 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 
 ###Activity 2 - Install R Studio on the R Server Edge Node
 - Follow the instructions from Azure documentation to [install R Studio](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-r-server-install-r-studio/) on your R Server edge node. You will need to wait for your cluster to be ready before you can proceed with these steps, and you will also need your SSH client available to connect.
+- After completing the steps from Azure documentation, be sure to leave R Studio open in your browser at localhost:8787.
 
-###Activity 3 - Run R Scripts to Analyze Data under Different Compute Contexts
-R Server on HDInsight offers processing under a variety of compute contexts. In this activity, you will explore changing between different contexts and analyzing income.
-![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-04.PNG)
+###Activity 3 - Use R to Manage Hadoop and Build Models under Different Compute Contexts
+R Server on HDInsight offers processing under a variety of compute contexts. In this activity, you will explore changing between different contexts and building logistic regression models under each.
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-04.PNG)  
 
+- Enter the following command into your SSH client while it is connected to the R Server edge node. This copies the income.csv file to your cluster's storage. Optionally, you can also verify that income copied correctly by typing *ls* into the console after having run the *wget* command.
+```
+wget https://cdn.rawgit.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/income.csv
+```
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-05.PNG)  
+
+- Open the tutorial's *HDInsight.R* script in RStudio at localhost:8787.
+- 
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-06.PNG)  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-07.PNG)  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-08.PNG)  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-09.PNG)  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-10.PNG)  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-11.PNG)  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-12.PNG)  
