@@ -41,13 +41,25 @@ wget https://cdn.rawgit.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-05.PNG)  
 
 - Open the tutorial's *HDInsight.R* script in RStudio at localhost:8787. 
-- Run the following command to reset the compute context to Local if needed.
+- Run the following R code to reset the compute context to Local if needed. Note the *rx* prefix, which means that you are using a ScaleR function.
 ```R
 rxSetComputeContext('local')
 ```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-06.PNG)  
+
+- Run the following R code to check the Hadoop version.
+```R
+rxHadoopVersion()
+```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-07.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-08.PNG)  
+
+- Run the following R code in sequence to make a new directory in HDFS, copy the income.csv file (that you downloaded earlier using your SSH client) into the directory, and list the directory contents. Note that you used the *rxHadoop[...]* commands instead of standard shell commands such as *mkdir* and *ls*.
+```R
+rxHadoopMakeDir("/data/income/")
+rxHadoopCopyFromLocal("~/income.csv", "/data/income/")
+rxHadoopListFiles("/data", recursive = TRUE)
+```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-09.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-10.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-11.PNG)  
