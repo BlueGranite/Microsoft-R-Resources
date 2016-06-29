@@ -40,8 +40,11 @@ wget https://cdn.rawgit.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r
 ```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-05.PNG)  
 
-- Open the tutorial's *HDInsight.R* script in RStudio at localhost:8787.
-- 
+- Open the tutorial's *HDInsight.R* script in RStudio at localhost:8787. 
+- Run the following command to reset the compute context to Local if needed.
+```R
+rxSetComputeContext('local')
+```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-06.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-07.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-08.PNG)  
