@@ -72,3 +72,29 @@ rxGetVarInfo(incomedata)
 ```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-11.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-12.PNG)  
+
+- Run the following R code in sequence to build a logistic regression model under the Local context.
+```R
+incomeformula <- "IncBin ~ age + education + race + sex"
+model <- rxLogit(formula = incomeformula, data = incomedata)
+summary(model)
+```
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-13.PNG)  
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-14.PNG)
+
+- Run the following R code in sequence to switch to Local Parallel and build a logistic regression model in the new context.
+```R
+rxSetComputeContext('localpar')
+model <- rxLogit(formula = incomeformula, data = incomedata)
+summary(model)
+```
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-15.PNG) 
+
+- Run the following R code in sequence to switch to Spark and build a logistic regression model in the new context.
+```R
+spark <-RxSpark()
+rxSetComputeContext(spark)
+model <- rxLogit(formula = incomeformula, data = incomedata)
+summary(model)
+```
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-16.PNG)
