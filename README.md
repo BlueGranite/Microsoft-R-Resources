@@ -7,7 +7,7 @@ Materials from BlueGranite's [Microsoft R: A Revolution in Advanced Analytics](h
 
 
 
-###[SQL Server 2016](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)
+###[SQL Server 2016](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Readme.md)
 The SQL Server R Services sample files utilize introductory R examples with the new Wide World Importers DW database. The demo utilizes a basic source query from the Fact.Orders table and shows how to work with the same data using R in both a traditional context as well as using RevoScaleR with various rx functions. Shifting to SQL, the same code can be adapted for use in SQL Server and embedded in stored procedures with minimal changes. The final component uses a Reporting Services (SSRS) report to connect to an embedded SQL stored procedure and plot the resulting histogram in SSRS.
 
 In order to work through everything in the tutorial, you will need:
@@ -29,7 +29,7 @@ In order to work through everything in the tutorial, you will need:
 *View the SQL Server 2016 [R Services Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)*  
 
 
-###[Power BI](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Tutorial.md)
+###[Power BI](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Readme.md)
 
 In order to work through the tutorial, you will need:
 
@@ -43,7 +43,7 @@ In order to work through the tutorial, you will need:
 *View the [Power BI Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Tutorial.md)* 
 
 
-###[R Server on HDInsight](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Tutorial.md)
+###[R Server on HDInsight](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Readme.md)
 
 In order to work through the tutorial, you will need:
 
