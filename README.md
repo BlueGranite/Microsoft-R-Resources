@@ -26,7 +26,7 @@ In order to work through everything in the tutorial, you will need:
 | SQL | Management Studio or Data Tools | R-Services-Example.sql |
 | Reporting Services | Data Tools | R-Services-Sample-Reports.zip |
 
-*View the SQL Server 2016 [R Services Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Tutorial.md)*  
+*View the SQL Server 2016 [R Services Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/sql-server-r-services/Readme.md)*  
 
 
 ###[Power BI](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Readme.md)
@@ -40,7 +40,7 @@ In order to work through the tutorial, you will need:
 | Power BI  | Power BI Desktop | gameconsole.pbix |
 | Data Source | Any text reader | gameconsole.csv |
 
-*View the [Power BI Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Tutorial.md)* 
+*View the [Power BI Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/power-bi/Readme.md)* 
 
 
 ###[R Server on HDInsight](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Readme.md)
@@ -55,7 +55,7 @@ In order to work through the tutorial, you will need:
 | R | RStudio (on R Server edge node) | HDInsight.R |
 | Data Source | Any text reader | income.csv |
 
-*View the [HDInsight Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Tutorial.md)
+*View the [HDInsight Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Readme.md)
 
   
   
