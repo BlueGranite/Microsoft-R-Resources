@@ -32,7 +32,7 @@ R Server on Azure HDInsight is a convenient way to utilize R in a distributed en
 - After completing the steps from Azure documentation, be sure to leave R Studio open in your browser at localhost:8787.
 
 ###Activity 3 - Use R to Manage Hadoop and Build Models under Different Compute Contexts
-R Server on HDInsight offers processing under a variety of compute contexts. In this activity, you will explore some basic Hadoop commands using ScaleR functions. You will also building a logistic regression models to predict income tier under various compute contexts: Local, Local Parallel, and Spark.
+R Server on HDInsight offers processing under a variety of compute contexts such as Local, Local Parallel, and Spark. In this activity, you will explore changing between different contexts and building logistic regression models under each.
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-04.PNG)  
 
 - Enter the following command into your SSH client while it is connected to the R Server edge node. This copies the income.csv file to your cluster's storage. Optionally, you can also verify that income copied correctly by typing *ls* into the console after having run the *wget* command.
