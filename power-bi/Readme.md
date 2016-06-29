@@ -88,3 +88,6 @@ decom <- stl(ts, s.window = "periodic")
 plot(decom)
 ```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-05.PNG)
+
+- Add a Slicer visualization to the report canvas and add *Console* to the slicer's *Values*. Check the box next to each of the three gaming consoles to see how the forecast changes for each.
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/power-bi/tutorial-assets/screenshot-pbi-visual-06.PNG)
