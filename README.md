@@ -48,10 +48,12 @@ In order to work through the tutorial, you will need:
 In order to work through the tutorial, you will need:
 
 - An Azure subscription
+- SSH client such as PuTTY
 
 | Category | Application | File Name |
 | ------------- |:-:| :-:|
 | R | RStudio (on R Server edge node) | HDInsight.R |
+| Data Source | Any text reader | income.csv |
 
 *View the [HDInsight Tutorial](https://github.com/BlueGranite/Microsoft-R-Resources/blob/master/hdinsight-r-server-spark/Tutorial.md)
 
