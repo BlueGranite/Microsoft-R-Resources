@@ -1,12 +1,11 @@
 ![BlueGranite](https://raw.githubusercontent.com/BlueGranite/BlueGranite.github.io/master/assets/images/Blue-Granite-Logo.png)
 
-#R Server on Spark with Azure HDInsight
-
-There are two different ways to apply R in Power BI: the *R Script* for loading and transforming data, and the *R Visual* for additional enhancement and data visualization. The following tutorial walks through a basic scenario using both.
+#R Server on Azure HDInsight
 
 ###Objectives
 - Create an R Server on Azure HDInsight cluster
-- Run a sample R script exploring the ability to change compute contexts
+- Install RStudio on the cluster
+- Run a sample R script exploring the ability to work with Hadoop commands, change compute contexts, and build models
 
 ###Prerequisites
 - An Azure subscription
