@@ -30,3 +30,6 @@ There are two different ways to apply R in Power BI: the *R Script* for loading 
 - Follow the instructions from Azure documentation to [install R Studio](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-r-server-install-r-studio/) on your R Server edge node. You will need to wait for your cluster to be ready before you can proceed with these steps, and you will also need your SSH client available to connect.
 
 ###Activity 3 - Run R Scripts to Analyze Data under Different Compute Contexts
+R Server on HDInsight offers processing under a variety of compute contexts. In this activity, you will explore changing between different contexts and analyzing income.
+![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-04.PNG)
+
