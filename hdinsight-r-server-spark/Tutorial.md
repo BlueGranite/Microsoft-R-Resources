@@ -62,5 +62,13 @@ rxHadoopListFiles("/data", recursive = TRUE)
 ```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-09.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-10.PNG)  
+
+- Run the following R code in sequence to set the file path, verify that you are reading from HDFS, build a text object from the CSV file, and then view the structure of the object.
+```R
+incomepath <- file.path("/data/income/income.csv")
+hdfsFS <-RxHdfsFileSystem()
+incomedata <- RxTextData(incomepath, fileSystem = hdfsFS, stringsAsFactors = TRUE)
+rxGetVarInfo(incomedata)
+```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-11.PNG)  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-12.PNG)  
