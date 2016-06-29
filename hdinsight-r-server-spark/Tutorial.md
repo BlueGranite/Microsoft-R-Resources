@@ -28,7 +28,7 @@ R Server on Azure HDInsight is a convenient way to utilize R in a distributed en
 - Configure the rest of the cluster options as required. When ready, click *Create* at the bottom of the panel. It may take up to 40 minutes to create your cluster. While you wait, you will see a notification in the upper right corner showing progress.  
 
 ###Activity 2 - Install R Studio on the R Server Edge Node
-- Follow the instructions from Azure documentation to [install R Studio](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-r-server-install-r-studio/) on your R Server edge node. You will need to wait for your cluster to be ready before you can proceed with these steps, and you will also need your SSH client available to connect.
+- Follow the instructions from Azure documentation to [install R Studio](https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-r-server-install-r-studio/) on your R Server edge node. You will need to wait for your cluster to be ready before you can proceed with these steps. You will also need your SSH client installed to connect to the cluster.
 - After completing the steps from Azure documentation, be sure to leave R Studio open in your browser at localhost:8787.
 
 ###Activity 3 - Use R to Manage Hadoop and Build Models under Different Compute Contexts
