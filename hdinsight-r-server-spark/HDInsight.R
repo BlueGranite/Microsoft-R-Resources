@@ -3,6 +3,8 @@ rxSetComputeContext('local')
 
 ####### Hadoop Command #######
 rxHadoopVersion()
+rxHadoopMakeDir("/data/income/")
+rxHadoopCopyFromLocal("~/income.csv", "/data/income/")
 rxHadoopListFiles("/data", recursive = TRUE)
 
 ####### Load income.csv from Hadoop #######
