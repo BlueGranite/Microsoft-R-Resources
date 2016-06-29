@@ -41,7 +41,7 @@ wget https://cdn.rawgit.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r
 ```
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/tutorial-assets/screenshot-hdi-cluster-05.PNG)  
 
-- Open the tutorial's *HDInsight.R* script in RStudio at localhost:8787. 
+- Open the tutorial's *[HDInsight.R](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/hdinsight-r-server-spark/HDInsight.R)* script in RStudio at localhost:8787 (or copy and paste the code in this tutorial as needed). 
 - Run the following R code to reset the compute context to Local if needed. Note the *rx* prefix, which means that you are using a ScaleR function.
 ```R
 rxSetComputeContext('local')
