@@ -2,7 +2,10 @@
 
 #SQL Server R Services Tutorial
 
-This tutorial walks through some basic development and deployment scenarios for R Services in SQL Server 2016. You will use sample order data and take R code that can be run standalone in RStudio or another R IDE, adapt it for use in SQL Server, and then consume it both in SQL Management Studio as well as from Reporting Services. 
+This tutorial walks through some basic development and deployment scenarios for R Services in SQL Server 2016. You will use sample order data and take R code that can be run standalone in RStudio or another R IDE, adapt it for use in SQL Server, and then consume it both in SQL Management Studio as well as from Reporting Services.  
+
+
+The SQL Server R Services sample files utilize introductory R examples with the new Wide World Importers DW database. The demo utilizes a basic source query from the Fact.Order table and shows how to work with the same data using R in both a traditional context as well as using RevoScaleR with various rx functions. Shifting to SQL, the same code can be adapted for use in SQL Server and embedded in stored procedures with minimal changes. The final component uses a Reporting Services (SSRS) report to connect to an embedded SQL stored procedure and plot the resulting histogram in SSRS.  
 
 ###Objectives
 - Learn about some of the Microsoft "RevoScaleR" functions
