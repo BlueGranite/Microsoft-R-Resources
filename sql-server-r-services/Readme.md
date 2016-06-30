@@ -26,7 +26,7 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 [WideWorldImportersDW](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers) sample database.
 
 ###Activity 1 - Develop in R
-1. In RStudio, open the *RevoScaleR-vs-Traditional.R* file (from the *sql-server-r-services* folder in this GitHub repo).  
+1. In RStudio, open the *[RevoScaleR-vs-Traditional.R](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/RevoScaleR-vs-Traditional.R)* file.  
 
 2. Install the RODBC package (i.e. install.packages("RODBC") ) if needed. RevoScaleR should already be available if you have Microsoft R Client installed.  
 
