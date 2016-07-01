@@ -66,7 +66,7 @@ or [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-
 Don't worry about analyzing this data. The logistic regression and histogram are simple examples that will be used to show how to embed and work with your R code in SQL Server. The plot will surface again in the later Reporting Services activity.
 
 ###Activity 2 - Adapt R Code for SQL Server
-1. In Management Studio, open the *R-Services-Example.sql* file (from the sql-server-r-services folder in this GitHub repo).  
+1. In Management Studio, open the *[R-Services-Example.sql](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/R-Services-Example.sql)* file.  
 2. Connect to your SQL instance that has the WWI DW sample database and R Services installed.  
 3. Execute the following code to verify that you are using the correct database.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-01.PNG)
@@ -96,14 +96,14 @@ Don't worry about analyzing this data. The logistic regression and histogram are
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-sql-12.PNG)
 
 ###Activity 3 - Visualize an R Plot in Reporting Services
-1. Download and unzip the *R-Services-Sample-Reports.zip* file (from the *sql-server-r-services* folder in this GitHub repo). 
+1. Download and unzip the *[R-Services-Sample-Reports.zip](https://github.com/BlueGranite/Microsoft-R-Resources/raw/master/sql-server-r-services/R-Services-Sample-Reports.zip)* file. 
 2. Open the *R-Services-Sample-Reports* solution in the latest version of SQL Server Data Tools.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-01.PNG)
 
 3. Open the *SampleHistogram.rdl* file from Solution Explorer.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-02.PNG)
 
-4. Open *WideWorldImportersDW" under *Data Sources* in Report Data. Change the connection string to your own SQL Server instance.  
+4. Open *WideWorldImportersDW* under *Data Sources* in Report Data. Change the connection string to your own SQL Server instance.  
 ![](https://raw.githubusercontent.com/BlueGranite/Microsoft-R-Resources/master/sql-server-r-services/tutorial-assets/screenshot-ssrs-03.PNG)
 
 5. Expand *Datasets* in Report Data and view *Dataset1*. Note how the dataset uses the *sp_HistogramSample* stored procedure as a source. You may need to use the dropdown menu and select the stored procedure using your own SQL connection.  
