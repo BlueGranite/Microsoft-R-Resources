@@ -1,7 +1,10 @@
 ###
-#Basic Connectivity to SQL Server with RevoScaleR
-#Compares traditional ODBC connection with ScaleR rx[...]
-#Uses WideWorldImportersDW sample database for SQL Server 2016
+# Basic Connectivity to SQL Server with RevoScaleR
+#
+# 2016 BlueGranite, Inc
+#
+# Compares traditional ODBC connection with ScaleR rx[...]
+# Uses WideWorldImportersDW sample database for SQL Server 2016
 ###
 
 library(RODBC) 
