@@ -1,3 +1,10 @@
+###
+# HDInsight with R Server
+#
+# 2016 BlueGranite, Inc
+#
+###
+
 ####### Set Local Context #######
 rxSetComputeContext('local')
 
